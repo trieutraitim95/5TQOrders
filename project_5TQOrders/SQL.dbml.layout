@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SQL">
+  <DataContextMoniker Name="/SQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="774e3b01-8bac-4e2d-b5b3-009ce15f2578" absoluteBounds="0.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SQLDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27492f47-0439-4a67-8e44-0d4567daa210" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc80ab82-79aa-4f06-9d37-69d5fe22615c" absoluteBounds="3.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SQLDataContext/LoaiMonAn" />
+      <nestedChildShapes>
+        <elementListCompartment Id="011aef1d-17b4-4cf4-9f2e-57067dc31927" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91dbca6c-f3a8-48b3-b5f7-7d052f8e9c0e" absoluteBounds="0.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SQLDataContext/MonAn" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ebe479c-3e2d-4665-a351-e7c953ba1281" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d2ded6e-5a50-4980-a1e4-77807fe22d34" absoluteBounds="3.75, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SQLDataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="413413af-8bad-4d91-8fa0-c6458cae67b7" absoluteBounds="3.765, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.75); (3.125 : 3.375); (3.125 : 1.34699625651042); (3.75 : 1.34699625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SQLDataContext/MonAn/MonAn_LoaiMonAn" />
+      <nodes>
+        <classShapeMoniker Id="91dbca6c-f3a8-48b3-b5f7-7d052f8e9c0e" />
+        <classShapeMoniker Id="fc80ab82-79aa-4f06-9d37-69d5fe22615c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
